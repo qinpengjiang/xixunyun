@@ -9,6 +9,7 @@ on:
       - main
   schedule:
     - cron: 0 0 8 * *
+    - cron: 0 0 14 * *
       
 jobs:
   build:
